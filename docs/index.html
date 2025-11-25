@@ -1,48 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-<!--1, Primero pones los metadatos-->
-<meta charset="UTF-8">
-<meta name="description" content="Fundación Huellitas de amor - Ayudando a animalitos sin hogar en busca de una nueva oportunidad">
-<meta name="keywords" content="Fundación, Huellitas de amor">
-<meta name="author" content="Valeria García">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--2, Luego pones el título de la página que aparece en el buscador-->
-<title>Huellitas de amor</title>
-<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="description" content="Fundación Huellitas de amor - Ayudando a animalitos sin hogar en busca de una nueva oportunidad" />
+  <meta name="keywords" content="Fundación, Huellitas de amor" />
+  <meta name="author" content="Valeria García" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<!--3, Aquí va el enclace al archivo CSS-->
-<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="CSS/style.css">
+  <title>Huellitas de Amor</title>
+
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="CSS/style.css" />
 </head>
-<!--4, Hasta acá va el head-->
 
 <body>
-    <header class="header">
-        <div class="container header-inner">
-<!--5, En esta parte emepzamos con la parte del logo en formato jpg-->
-        <a class="logo" href="#">
-        <img src="IMG/Logo fundación.jpg" alt="Logo Fundación Huellitas de Amor" height="50"/>
-        </a>
-        
-    <nav class="Inicio">
-        <ul>
-            <li><a href="#Inicio">Inicio</a></li>
-            <li><a href="#nosotros">Nosotros</a></li>
-            <li><a href="#proyectos">Proyectos</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-             <li><a class="btn-dona" href="#donar">Dona</a></li>
-        </ul>
-    </nav>
-    </div>
-</header>
+  <header class="header">
+    <div class="container header-inner">
+      <a class="logo" href="#">
+        <img src="IMG/logo-fundacion.jpg" alt="Logo Fundación Huellitas de Amor" height="50" />
+      </a>
 
-<main>
-<!--5, Aquí se insertó el video en formato mp4-->
+      <nav class="Inicio">
+        <ul>
+          <li><a href="#Inicio">Inicio</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+          <li><a class="btn-dona" href="#donar">Dona</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
     <section class="hero video-hero">
-      <video class="hero-video" id="hero-video" autoplay mute loop playsinline>
-        <source src="IMG/Huellitas.mp4" type="video/mp4" />
+      <video class="hero-video" id="hero-video" autoplay muted loop playsinline>
+        <source src="IMG/huellitas.mp4" type="video/mp4" />
       </video>
 
       <div class="hero-overlay"></div>
@@ -56,7 +51,7 @@
           </div>
         </div>
 
-    <div class="stats-grid">
+        <div class="stats-grid">
           <div class="stat">
             <div class="stat-number">+200</div>
             <div class="stat-label">Adopciones seguras</div>
@@ -67,7 +62,7 @@
           </div>
           <div class="stat">
             <div class="stat-number">+12</div>
-            <div class="stat-label">Albergues en la República Mexicana</div>
+            <div class="stat-label">Albergues en México</div>
           </div>
         </div>
       </div>
@@ -75,34 +70,36 @@
 
     <section id="proyectos" class="projects container">
       <h2>Proyectos de Corazón</h2>
-      <p class="lead">Ellos buscan una oportunidad. ¡Tú puedes ser su mundo.!</p>
+      <p class="lead">Ellos buscan una oportunidad. ¡Tú puedes ser su mundo!</p>
 
       <div class="project-cards">
         <article class="card">
           <div class="card-img" id="Adopta-No-Compres"></div>
           <div class="card-body">
             <h3>“Adopta, No Compres”</h3>
-            <p>Creación posters, videos o reels que hablen de la importancia de adoptar.</p>
+            <p>Creación de posters, videos o reels sobre la importancia de adoptar.</p>
           </div>
         </article>
+
         <article class="card">
           <div class="card-img" id="Padrinos-Peludos"></div>
           <div class="card-body">
             <h3>“Padrinos Peludos”</h3>
-            <p>Programa donde las personas puedan: Apadrinar un perrito/gatito con donaciones mensualesy recibir fotos, videos y actualizaciones</p>
+            <p>Programa para apadrinar perritos o gatitos con donaciones mensuales.</p>
           </div>
         </article>
+
         <article class="card">
-          <div class="card-img" id="Un-Día-en-el-Refugio"></div>
+          <div class="card-img" id="Un-Dia-Refugio"></div>
           <div class="card-body">
             <h3>“Un Día en el Refugio”</h3>
-            <p>Documental, video o reportaje fotográfico que muestre: Las rutinas del refugio, Cuidados necesarios, Testimonios de voluntarios.</p>
+            <p>Documental, video o reportaje fotográfico sobre la vida en el refugio.</p>
           </div>
         </article>
       </div>
     </section>
 
-<section id="contacto" class="newsletter">
+    <section id="contacto" class="newsletter">
       <div class="container newsletter-inner">
         <div>
           <h2>¡No te pierdas lo último!</h2>
@@ -115,16 +112,15 @@
         <div id="formMessage" class="form-message"></div>
       </div>
     </section>
+  </main>
 
-
-</main>
-<footer class="site-footer">
+  <footer class="site-footer">
     <div class="container footer-inner">
       <div class="footer-col">
-<!--6, Se empieza a colocar el pie de página o la parte final de la página, que lleva sobre la fundación, los enlaces e información del contacto-->
         <h4>Sobre la fundación</h4>
-        <p> Nuestra fundación busca que perritos y gatitos sin hogar lleguen a manos responsables y que sean cuidados con mucho amor 
+        <p>Nuestra fundación busca que perritos y gatitos sin hogar lleguen a manos responsables y sean cuidados con mucho amor.</p>
       </div>
+
       <div class="footer-col">
         <h4>Enlaces</h4>
         <ul>
@@ -133,27 +129,25 @@
           <li><a href="#impacto">Impacto</a></li>
         </ul>
       </div>
-      
+
       <div class="footer-col">
         <h4>Contacto</h4>
         <address>
-          Boulevard de los Olivos 101, Centro Cultural El Faro<br/>Naucalpan, Estado de México<br/>
-          <a href="mailto:yurintelligence@outlook.com">v.garcia055@ebc.edu.mx</a>
+          Boulevard de los Olivos 101, Naucalpan, Estado de México<br />
+          <a href="mailto:v.garcia055@ebc.edu.mx">v.garcia055@ebc.edu.mx</a>
         </address>
       </div>
     </div>
-     <!-- Redes sociales -->
-  <div class="footer-social">
-    <div class="container social-icons">
-      <a href="https://www.facebook.com/ESPN?locale=es_LA" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-      <a href="https://www.instagram.com/valgco_/" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-      <a href="https://www.youtube.com/@espndeportes" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
-      <a href="https://www.linkedin.com/in/valeria-garcia-chavez-23b527324/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-      <a href="https://x.com/LaEBC" aria-label="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
-     
-    </div>
-  </div>
 
+    <div class="footer-social">
+      <div class="container social-icons">
+        <a href="https://www.facebook.com/ESPN?locale=es_LA" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/valgco_/" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.youtube.com/@espndeportes" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://www.linkedin.com/in/valeria-garcia-chavez-23b527324/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://x.com/LaEBC" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+      </div>
+    </div>
 
     <div class="footer-bottom">
       <div class="container">© <span id="anio"></span> Fundación Huellitas de Amor</div>
