@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--1, Primero pones los metadatos-->
+<meta charset="UTF-8">
+<meta name="description" content="Fundación Huellitas de amor - Ayudando a animalitos sin hogar en busca de una nueva oportunidad">
+<meta name="keywords" content="Fundación, Huellitas de amor">
+<meta name="author" content="Valeria García">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--2, Luego pones el título de la página que aparece en el buscador-->
+<title>Huellitas de amor</title>
+<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+<!--3, Aquí va el enclace al archivo CSS-->
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="CSS/style.css">
+</head>
+<!--4, Hasta acá va el head-->
+
+<body>
+    <header class="header">
+        <div class="container header-inner">
+<!--5, En esta parte emepzamos con la parte del logo en formato jpg-->
+        <a class="logo" href="#">
+        <img src="IMG/Logo fundación.jpg" alt="Logo Fundación Huellitas de Amor" height="50"/>
+        </a>
+        
+    <nav class="Inicio">
+        <ul>
+            <li><a href="#Inicio">Inicio</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+             <li><a class="btn-dona" href="#donar">Dona</a></li>
+        </ul>
+    </nav>
+    </div>
+</header>
+
+<main>
+<!--5, Aquí se insertó el video en formato mp4-->
+    <section class="hero video-hero">
+      <video class="hero-video" id="hero-video" autoplay mute loop playsinline>
+        <source src="IMG/Huellitas.mp4" type="video/mp4" />
+      </video>
+
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content container">
+        <div class="hero-text">
+          <h1>“Pequeños actos, grandes vidas.”</h1>
+          <div class="hero-actions">
+            <a class="btn primary" href="https://forms.gle/yrhZ31CMxVKJrFs57">Dona</a>
+            <a class="btn outline" href="#voluntariado">Sé parte</a>
+          </div>
+        </div>
+
+    <div class="stats-grid">
+          <div class="stat">
+            <div class="stat-number">+200</div>
+            <div class="stat-label">Adopciones seguras</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">+25</div>
+            <div class="stat-label">Veterinarios certificados</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">+12</div>
+            <div class="stat-label">Albergues en la República Mexicana</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyectos" class="projects container">
+      <h2>Proyectos de Corazón</h2>
+      <p class="lead">Ellos buscan una oportunidad. ¡Tú puedes ser su mundo.!</p>
+
+      <div class="project-cards">
+        <article class="card">
+          <div class="card-img" id="Adopta-No-Compres"></div>
+          <div class="card-body">
+            <h3>“Adopta, No Compres”</h3>
+            <p>Creación posters, videos o reels que hablen de la importancia de adoptar.</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-img" id="Padrinos-Peludos"></div>
+          <div class="card-body">
+            <h3>“Padrinos Peludos”</h3>
+            <p>Programa donde las personas puedan: Apadrinar un perrito/gatito con donaciones mensualesy recibir fotos, videos y actualizaciones</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-img" id="Un-Día-en-el-Refugio"></div>
+          <div class="card-body">
+            <h3>“Un Día en el Refugio”</h3>
+            <p>Documental, video o reportaje fotográfico que muestre: Las rutinas del refugio, Cuidados necesarios, Testimonios de voluntarios.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+<section id="contacto" class="newsletter">
+      <div class="container newsletter-inner">
+        <div>
+          <h2>¡No te pierdas lo último!</h2>
+          <p>Suscríbete para recibir noticias e historias.</p>
+        </div>
+        <form id="subscribeForm" class="subscribe-form" novalidate>
+          <input id="email" type="email" placeholder="Tu correo electrónico" required />
+          <button class="btn primary" type="submit">Suscribirme</button>
+        </form>
+        <div id="formMessage" class="form-message"></div>
+      </div>
+    </section>
+
+
+</main>
+<footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-col">
+<!--6, Se empieza a colocar el pie de página o la parte final de la página, que lleva sobre la fundación, los enlaces e información del contacto-->
+        <h4>Sobre la fundación</h4>
+        <p> Nuestra fundación busca que perritos y gatitos sin hogar lleguen a manos responsables y que sean cuidados con mucho amor 
+      </div>
+      <div class="footer-col">
+        <h4>Enlaces</h4>
+        <ul>
+          <li><a href="#quienes">Quiénes somos</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#impacto">Impacto</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-col">
+        <h4>Contacto</h4>
+        <address>
+          Boulevard de los Olivos 101, Centro Cultural El Faro<br/>Naucalpan, Estado de México<br/>
+          <a href="mailto:yurintelligence@outlook.com">v.garcia055@ebc.edu.mx</a>
+        </address>
+      </div>
+    </div>
+     <!-- Redes sociales -->
+  <div class="footer-social">
+    <div class="container social-icons">
+      <a href="https://www.facebook.com/ESPN?locale=es_LA" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/valgco_/" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.youtube.com/@espndeportes" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+      <a href="https://www.linkedin.com/in/valeria-garcia-chavez-23b527324/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="https://x.com/LaEBC" aria-label="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+     
+    </div>
+  </div>
+
+
+    <div class="footer-bottom">
+      <div class="container">© <span id="anio"></span> Fundación Huellitas de Amor</div>
+    </div>
+  </footer>
+
+  <script src="JS/script.js"></script>
+</body>
+</html>
+
+<!--7, Mi experiencia con esta actividad fue estresante, ya que no tenía ni siquiera los conocimientos básicos de programación, se me hizo curioso que con un solo número o símbolo te puede modificar el diseño o alterar todo,así mismo aprendí para que sirve cada comando-->
